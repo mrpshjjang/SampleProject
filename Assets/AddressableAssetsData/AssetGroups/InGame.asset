@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: InGame
+  m_EditorClassIdentifier: 
+  m_GroupName: InGame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0762fa329760845279f217c1290a7fb7
+  m_SerializeEntries:
+  - m_GUID: 8993cf89367664a0ea4d4e64910766f4
+    m_Address: NormalBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7392987a2477047b29650257216810dd
+    m_Address: BombBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2805af135af642b08ca763bafcf9383
+    m_Address: BossBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 734f548288a5d458eb9f72a5a1b3679e
+    m_Address: BubbleGeneratorBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a406d80713ff6463f9e2da5ce7621cc8
+    m_Address: GuideBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InGame
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55bf0f8315b844a2090456a747df697c
+    m_Address: PrevBubble
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - InGame
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5dfae3639e15040a4bc84798abcd4c8a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 661ba510b9e4a4e7db4c5c6b73ceaaed, type: 2}
+    - {fileID: 11400000, guid: 54a117157bd684c2ba6ed0f5c63f10c3, type: 2}

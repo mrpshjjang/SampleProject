@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="Top">
+        <ui:DropdownField label="Google Sheet" index="-1" name="DropDownFileList" style="flex-direction: column; width: auto; max-width: none; flex-wrap: nowrap; justify-content: flex-end; flex-grow: 0;" />
+        <ui:VisualElement style="flex-wrap: wrap; flex-direction: row;">
+            <ui:Button text="구글 시트 리스트 얻기" display-tooltip-when-elided="true" name="BtnGetFileList" style="width: auto; flex-wrap: nowrap;" />
+            <ui:Button text="선택 시트 열기" display-tooltip-when-elided="true" name="BtnOpenSelectSheet" style="width: auto; flex-wrap: nowrap;" />
+            <ui:Button text="구글 로그아웃" display-tooltip-when-elided="true" name="BtnGoogleLogout" style="width: auto;" />
+            <ui:Button text="Sample 시트 열기" display-tooltip-when-elided="true" name="BtnSample" style="width: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-wrap: wrap; flex-direction: row;">
+            <ui:Button text="시트 적용 &amp; CS 생성" display-tooltip-when-elided="true" name="BtnApplySheetGeneratorCS" style="width: auto;" />
+            <ui:Button text="검증하기" display-tooltip-when-elided="true" name="BtnValid" style="width: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Asset" style="flex-shrink: 0; height: auto; flex-grow: 0; max-height: none;" />
+</ui:UXML>

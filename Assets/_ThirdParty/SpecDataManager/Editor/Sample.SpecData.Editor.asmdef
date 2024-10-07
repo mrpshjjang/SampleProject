@@ -1,0 +1,29 @@
+{
+    "name": "Sample.SpecData.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ceec1eb06e8f54fba9a44bae4d64ee88",
+        "GUID:171a12d22dd697c46a59149bb37f1580",
+        "GUID:be5ab822d3b09704d959e2764513acd9",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:cb03729e87736ee439a3b54b459fcdcb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Google.Apis.dll",
+        "Google.Apis.Auth.dll",
+        "Google.Apis.Drive.v3.dll",
+        "Google.Apis.Core.dll",
+        "ExcelDataReader.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

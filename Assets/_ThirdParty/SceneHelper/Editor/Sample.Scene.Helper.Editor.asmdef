@@ -1,0 +1,19 @@
+{
+    "name": "Sample.Scene.Helper.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e977c6d659b4d814da95ede31a8916ca",
+        "GUID:ceec1eb06e8f54fba9a44bae4d64ee88"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

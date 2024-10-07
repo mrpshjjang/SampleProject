@@ -1,0 +1,17 @@
+{
+  "ImportedLocalSpreadsheetName": "",
+  "ExportedLocalSpreadsheetName": "",
+  "ImportedGoogleSpreadsheetName": "",
+  "ExportedGoogleSpreadsheetPath": "",
+  "ImportType": 2,
+  "ExportType": 2,
+  "ExportFileMD5": "",
+  "AccessTokenTimeout": "",
+  "AccessTokenKey": "",
+  "RefreshTokenKey": "",
+  "CreateDataColor": "#36ccdb",
+  "DefineDataColor": "#0488d7",
+  "HighlightColor": "#f15c25",
+  "PrettyJson": false,
+  "DataFilePath": "/Users/parksuhyeon/unity/SampleProject/Assets/GameDataEditor/Resources/gde_data.txt"
+}

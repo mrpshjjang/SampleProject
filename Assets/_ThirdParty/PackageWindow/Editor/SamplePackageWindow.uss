@@ -1,0 +1,9 @@
+Label {
+    font-size: 14px;
+    -unity-font-style: normal;
+    color: rgb(238, 238, 238);
+    overflow: hidden;
+    -unity-font: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

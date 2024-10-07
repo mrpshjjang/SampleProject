@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Popup
+  m_EditorClassIdentifier: 
+  m_GroupName: Popup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bea52ac9c2ac24bbf91e42c612410b26
+  m_SerializeEntries:
+  - m_GUID: ce9cd9c631f51401eb51c796b03de299
+    m_Address: PopupCommon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d08b4e28c2fb4dbc8268f1dc3c542a9
+    m_Address: PopupManager
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Popup
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5dfae3639e15040a4bc84798abcd4c8a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 316ae4e5f50a84b488bf4c662da5430d, type: 2}
+    - {fileID: 11400000, guid: 10c4f3df0946b4c1687ee41ac4db473c, type: 2}

@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Package/Editor/SamplePackageWindow.uss?fileID=7433441132597879392&amp;guid=e4e715af34a96d840bd52a65f7fdef3a&amp;type=3#SamplePackageWindow" />
+    <ui:VisualElement name="ve_tab" usage-hints="None" tabindex="0" style="-unity-font-style: bold; min-width: auto; width: auto; align-items: flex-start; flex-direction: column; flex-wrap: nowrap; max-width: none; height: auto; white-space: normal; flex-basis: auto; flex-grow: 0; flex-shrink: 1; justify-content: flex-start;">
+        <ui:VisualElement name="gb_tab" style="flex-wrap: wrap; flex-direction: row;" />
+        <ui:VisualElement name="ve_update" style="flex-grow: 0; background-color: rgb(149, 131, 0); flex-direction: row; width: auto; margin-top: 0; margin-bottom: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; flex-wrap: wrap; white-space: normal; min-width: auto; min-height: auto; flex-shrink: 1; display: none;">
+            <ui:Label tabindex="-1" text="새로운 버전이 업데이트 되었습니다." display-tooltip-when-elided="true" name="lb_update" style="white-space: normal;" />
+            <ui:Button text="CHANGELOG" display-tooltip-when-elided="true" name="btn_changelog_in_update" />
+            <ui:Button text="Open PackageWindow" display-tooltip-when-elided="true" name="btn_open_package_window" />
+            <ui:Button text="Skip this version" display-tooltip-when-elided="true" name="btn_skip_in_update" />
+        </ui:VisualElement>
+        <ui:ScrollView mode="Vertical" style="flex-grow: 2; flex-shrink: 1; flex-direction: row; transform-origin: left top;">
+            <ui:VisualElement name="ve_content" style="flex-direction: row; flex-wrap: nowrap; flex-grow: 2; flex-shrink: 0; flex-basis: auto; width: auto; height: auto;" />
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b8081e62c0474907ac688f695eaf5c1, type: 3}
+  m_Name: AtlasCreator
+  m_EditorClassIdentifier: 
+  atlasInfos:
+  - pathToSave: Assets/_Project/SpriteAtlas
+    pathToLoad: Assets/Resources/Texture/Bubble
+    prefix: Atlas_Bubble_
+    fileAddType: 0
+    isRecursive: 1
+    enableRotation: 1
+    enableTightPacking: 1
+    padding: 4
+    filterMode: 0
+    sRGB: 1
+  OriginalTextureFolder: Assets/Resources/Texture
+  AtlasSaveFolder: Assets/_Project/SpriteAtlas
+  AtlasPrefix: Atlas
+  DefEnableRotation: 1
+  DefEnableTightPacking: 1
+  DefPadding: 4
+  DefFilterMode: 0
+  DefSRGB: 1
+  DefFileAddType: 0
